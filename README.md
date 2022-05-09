@@ -8,4 +8,4 @@ pip install selenium
 pip install xlwt
 ```
 
-Replace 'Your token' in line and you ready to go
+Replace 'Your token' in line 6 and you ready to go!
