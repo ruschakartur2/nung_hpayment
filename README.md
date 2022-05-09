@@ -1,5 +1,5 @@
 # nung_hpayment
-You need to install pyTelegramBotAPI:
+You need to install:
 ```
 pip install pyTelegramBotAPI
 pip install selenium
