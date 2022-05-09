@@ -1,9 +1,12 @@
 import telebot
+import xlwt
+import os
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import xlwt
 
-bot = telebot.TeleBot("Your token")
+TELEGRAM_TOKEN = os.environ['TELEGRAM_TOKEN']
+bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
 
 keyboard = telebot.types.ReplyKeyboardMarkup(True)
