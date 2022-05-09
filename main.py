@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import xlwt
 
-bot = telebot.TeleBot("2087589116:AAGY4XjzWLkfz6MiRdxLkGhBpY_qOFIcB7g")
+bot = telebot.TeleBot("Your token")
 
 
 keyboard = telebot.types.ReplyKeyboardMarkup(True)
